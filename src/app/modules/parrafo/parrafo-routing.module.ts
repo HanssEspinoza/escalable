@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LibroComponent, ParrafoComponent } from './pages';
+import { LibroComponent, ParrafoComponent, TextoComponent } from './pages';
 
 const routes: Routes = [
   {
@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'libro',
     component: LibroComponent
+  },
+  {
+    path: 'texto',
+    component: TextoComponent
   }
 ];
 
