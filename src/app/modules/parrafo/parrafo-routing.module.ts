@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ParrafoComponent } from './pages';
+import { LibroComponent, ParrafoComponent } from './pages';
 
 const routes: Routes = [
   {
     path: '',
     component: ParrafoComponent
+  },
+  {
+    path: 'libro',
+    component: LibroComponent
   }
 ];
 

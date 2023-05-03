@@ -15,7 +15,7 @@ export class LetrasComponent implements OnInit{
     this.getVector();
   }
 
-  getVector(){
+  getVector(): void  {
     this.vector = this.letrasService.getVector();
   }
 }
