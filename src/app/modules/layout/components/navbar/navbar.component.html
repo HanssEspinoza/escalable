@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  <span>App Escalable</span>
+  <span class="example-spacer"></span>
+  <div *ngFor="let item of menu">
+    <button mat-icon-button class="example-icon" [routerLink]="[item.link]">
+      <mat-icon>{{item.icon}}</mat-icon>
+      {{item.title}}
+    </button>
+  </div>
+</mat-toolbar>
